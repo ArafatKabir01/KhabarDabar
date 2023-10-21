@@ -5,7 +5,7 @@ const OurMenu = () => {
     return (
         <section>
             <SectionTitle heading={"FROM OUR MENU"} subHeading={"---Check it out---"}></SectionTitle>
-            <div className="flex text-gray-400">
+            <div className="flex text-gray-400 justify-between">
                 <div>
                     <div className="flex items-center my-5">
                         <div><img src={ourMenuIcon} alt="" className="w-24 mx-8" /></div>
