@@ -8,9 +8,12 @@ function Home() {
   return (
     <div>
       <Banner></Banner>
-      <Catagory></Catagory>
-      <ShortAbout></ShortAbout>
-      <OurMenu></OurMenu>
+      <div className='max-w-screen-xl mx-auto p-2'>
+        <Catagory></Catagory>
+        <ShortAbout></ShortAbout>
+        <OurMenu></OurMenu>
+      </div>
+
     </div>
   )
 }
